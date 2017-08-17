@@ -1,0 +1,153 @@
+h1
+{
+	font-family: 'Just Another Hand', cursive;
+	color: white;
+	font-size: 125px;
+}
+
+#socioeconomico_title
+{
+	font-size: 70px;
+	color: #3BB1C1;
+}
+
+.vestibulinho-destaque
+{
+	font-family: 'Just Another Hand';
+	font-size: 50px; 
+	color: white;
+}
+
+.infos-vestibulinho
+{
+	color: white;
+}
+
+#socioeconomico_explicacao
+{
+	text-indent: 50px;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+@media(max-width: 767px)
+{
+	h1
+	{
+		font-size: 70px;
+	}
+
+	#socioeconomico_title
+	{
+		font-size: 45px;
+	}
+	h3
+	{
+		font-size: 17px;
+	}
+
+	.nuvem-vestibulinho
+	{
+		margin: 0 -20px;
+	}
+
+	.vestibulinho-destaque
+	{
+		font-size: 40px;
+	}
+
+	.infos-vestibulinho
+	{
+		font-size: 22px;
+	}
+}
+
+.btn-outline {
+  border-color: #63CEFF;
+  background: #63CEFF;
+ }
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #3FC0E0;
+  background: white;
+  border-color: #A9A9A9;
+}
+
+
+#page-wrapper
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: linear-gradient(to bottom, #63CEFF 30%, #FFF96F);
+	/* background: linear-gradient(to bottom, #63CEFF, white);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#informacoes
+{
+	margin-top: 30px;
+}
+
+.vestibulinho-nuvem-item
+{
+	position: absolute;
+	left: 15%;
+	width: 40%;
+}
+
+#inscricao_container
+{
+	background: white;
+	-webkit-border-radius: 20px;
+	        border-radius: 20px;
+	    padding-bottom: 10px;
+}
+
+#provas-container
+{
+	background: white;
+	-webkit-border-radius: 20px;
+	        border-radius: 20px;
+	padding-bottom: 20px;
+	padding-left: 45px;
+	padding-top: 30px;
+	line-height: 45px;
+}
+
+@media (max-width: 375px)
+{
+	#provas-container
+	{
+		padding-left: 20px;
+	}
+}
+
+#dados_socioeconomicos_container
+{
+	margin-top: 30px;
+	background: white;
+	-webkit-border-radius: 20px;
+	        border-radius: 20px;
+}
+
+.item-provas, .item-provas>a
+{
+	text-decoration: none;
+	color: #3BB1C1;
+	font-size: 18px;
+	list-style: none;
+}
+
+#printframe
+{
+	background: white;
+}
+
+#btnPrint
+{
+	margin: auto;
+}

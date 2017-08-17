@@ -1,0 +1,565 @@
+
+/* Header */
+header
+{
+  background-image: url("../images/aviao.png");
+  background-size: 100% 100%;
+  height: 70vh;
+}
+
+@media (max-width: 995px)
+{
+  header
+  {
+    height: 50vh
+  }
+}
+
+header .container-fluid {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+
+
+#aviao{
+  width: 100%;
+  position: relative;
+}
+
+#logoCesd
+{
+  max-width: 30%;
+  position: relative;
+  left:12%;
+  margin-top: 20vh;
+}
+
+@media (max-width: 995px)
+{
+  #logoCesd
+  {
+    left: 6%;
+    max-width: 35%;
+    margin-top: 10vh;
+  }
+}
+
+@media (max-width: 768px)
+{
+  #logoCesd
+  {
+    max-width: 40%;
+    margin-top: 13vh;
+  }
+}
+
+/* Quem Somos */
+
+#quemSomos{
+  background: white;
+  position: relative;
+}
+
+#mais
+{
+  max-width: 100%;
+  width: initial;
+}
+
+#igual
+{
+ max-width: 100%; 
+width: initial;
+}
+
+#quemSomosRow
+{
+  margin: 0;
+}
+
+
+.quemSomosSimbolo
+{
+  padding: 0;
+}
+
+#quemSomosButton
+{
+  font-size:22px;
+}
+
+@media(max-width: 768px)
+{
+  #quemSomosButton,
+  .popup p,
+  .popup h3
+  {
+    font-size: 18px;
+  }
+
+}
+
+@media (min-width: 768px)
+{
+  #quemSomosButton
+  {
+    margin-left: 0;
+  }
+}
+
+#quemSomosButton>a
+{
+  padding-left: 0;
+  padding-right: 0;
+  font-size:  17px;
+}
+
+
+.descricaoCurso{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+/* Pop-up para telas pequenas */
+
+.popup {
+    position: relative;
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.popup h3
+{
+    cursor: pointer;
+  }
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 10;
+    top: 125%;
+    left: 50%;
+    margin-top: -5px;
+    margin-left: -50%;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+/* Quero Ajudar */
+
+#transitionImage1
+{
+  min-height: 70px;
+  background-image: url("../images/pt1.png");
+  background-size: 100% 100%;
+}
+
+#transitionImage2
+{
+  min-height: 70px;
+  background-image: url("../images/pt2.png");
+  background-size: 100% 100%;
+}
+
+#transitionImage3
+{
+  min-height: 70px;
+  background-image: url("../images/pt3.png");
+  background-size: 100% 100%;
+}
+
+#queroAjudar
+{
+  background: #A4E7F7 30%;
+}
+
+#queroAjudarTexto1
+{
+  color: white;
+  font-size: 30px;
+}
+
+#queroAjudarTexto1>span
+{
+  font-family: 'Just Another Hand', cursive;
+  font-size: 50px;
+}
+
+#queroAjudarTexto2
+{
+  font-family: 'Just Another Hand', cursive;
+  font-size: 70px;
+  margin-bottom: 40px;
+  color: #3FC0E0;
+}
+
+@media(max-width: 768px)
+{
+  #queroAjudarTexto1
+  {
+    font-size: 23px;
+  }
+
+  #queroAjudarTexto1>span
+  {
+    font-size: 40px;
+  }
+
+  #queroAjudarTexto2
+  {
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+}
+
+.queroAjudarButtonContainer
+{
+  padding: 0 15px;
+}
+
+@media(max-width: 768px)
+{
+  .queroAjudarButtonContainer
+  {
+    padding: 0 3px;
+  }
+  .queroAjudarButton
+  {
+    font-size: 17px;
+  }
+}
+
+
+#resultados
+{
+  background-image: url("../images/diaAprovados.jpg");
+  background-size: 100% 100%;
+}
+
+#depoimentos
+{
+  background: linear-gradient(to bottom, #A4E7F7 30%, #FFF96F);
+  text-align: center;
+  padding-top: 30px;
+}
+
+.depoimento-container
+{
+  margin-bottom: 20px;
+}
+
+.mensagem-depoimento
+{
+  margin: 0 20px 10px 20px;
+  color: #444;
+}
+
+/* Parceiros */
+
+#nuvemcima
+{
+  position: relative;
+  background: #FFF96F;
+  background-image: url("../images/nuvemcima.png");
+  background-size: 100% 100%;
+  min-height: 150px;
+}
+
+#nuvemContainer
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/*BEGIN CAROUSEL*/
+
+#wrapper {
+  background: white;
+  width: 100%;
+  margin-top: -1px;
+  position: relative;
+  left: 0;
+}
+#carousel div {
+  text-align: center;
+  width: 200px;
+  margin: 0 20px;
+  height: 250px;
+  float: left;
+  position: relative;
+}
+#carousel div img {
+  border: none;
+}
+#carousel div span {
+  display: none;
+}
+#carousel div:hover span {
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  display: inline-block;
+  width: 100px;
+  padding: 2px 0;
+  margin: 0 0 0 -50px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  border-radius: 3px;
+}
+
+/*END CAROUSEL*/
+
+/*BEGIN POPUP VESTIBULINHO*/
+
+#popup-vestibulinho-casd
+{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+}
+
+.fade-vestibulinho
+{
+  background-color: rgba(0,0,0,0.75);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.content-popup
+{
+  position: absolute;
+  background-color: #63CEFF;
+  z-index: 10000;
+  margin: auto;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.header-popup
+{
+  font-family: 'Just Another Hand', 'Open Sans', Helvetica, Arial, sans-serif;
+  position: relative;
+  min-height: 15%;
+  background-color: #FFF96F;
+  z-index:10001;
+  -webkit-border-top-left-radius: 10px;
+          border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+          border-top-right-radius: 10px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-size: 20px;
+}
+
+.body-popup
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 22px;
+  color: white;
+  min-height: 70%;
+  z-index:9999;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+.footer-popup
+{
+  position: absolute;
+  width: 100%;
+  min-height: 15%;
+  bottom: 0;
+  background-color: white;
+  z-index:10001;
+  -webkit-border-bottom-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.action-popup
+{
+  font-size: 30px;
+  color: blue;
+}
+
+
+.close-popup
+{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black;
+}
+
+.popup-title
+{
+  font-size: 35px;
+}
+
+@media (max-width: 1499px)
+{
+  .content-popup
+  {
+    height: 60vh;
+    width: 50vw;
+  }
+
+  .imagem-popup
+  {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1199px)
+{
+  .content-popup
+  {
+    height: 70vh;
+    width: 60vw;
+  }
+
+  .imagem-popup
+  {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 991px)
+{
+  .content-popup
+  {
+    height: 70vh;
+  }
+
+  .imagem-popup
+  {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 991px)
+{
+  .content-popup
+  {
+    height: 70vh;
+  }
+
+  .imagem-popup
+  {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px)
+{
+  .content-popup
+  {
+    width: 90vw;
+    height: 80vh;
+  }
+
+  .imagem-popup
+  {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 1500px)
+{
+  .content-popup
+  {
+    height: 50vh;
+    width: 35vw;
+  }
+
+  .imagem-popup
+  {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+  }
+}
+
+
+
+/*END POPUP*/
+

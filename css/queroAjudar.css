@@ -1,0 +1,100 @@
+h1
+{
+	font-family: 'Just Another Hand', cursive;
+	color: white;
+	font-size: 125px;
+}
+
+h2
+{
+	font-family: 'Kalam', cursive;
+	color: #3BB1C1;
+	text-indent: 40px;
+	font-size: 34px;
+}
+
+.legendaImagem
+{
+	text-align: center;
+	font-size: 21px;
+	font-family: 'Kalam', cursive;
+}
+
+.textoPage
+{
+	text-indent: 20px;
+	text-align: justify;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 18px;
+}
+
+.queroAjudarDestaque
+{
+	margin-top: 30px;
+	padding: 15px 30px;
+	color: white;
+	background: #F2D650;
+	border: 0 transparent;
+	-webkit-border-radius: 20px;
+	        border-radius: 20px;
+}
+
+.queroAjudarDestaque>p,
+.queroAjudarDestaque>p>span
+{
+	text-align: center;
+}
+
+.queroAjudarDestaque p span
+{
+	font-family: 'Kalam', cursive;
+	font-size: 23px;
+}
+
+#pagSeguro
+{
+	margin-top: 30px;
+}
+
+#pagSeguroButton
+{
+	margin: 0 auto;
+}
+
+#sejaVoluntario
+{
+	margin-top: 50px;
+}
+
+#sejaParceiro
+{
+	margin-top:  50px;
+}
+
+#parceiroImage
+{
+	padding-top: 30px;
+}
+
+#doadorImage
+{
+	padding-top: 40px;
+}
+
+@media (min-width: 768px)
+{
+.flex{
+	  display: flex;
+	  justify-content: center;
+	  align-items: center; 
+}
+}
+
+#page-wrapper
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: linear-gradient(to bottom, #63CEFF, white);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

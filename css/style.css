@@ -1,0 +1,329 @@
+/* BEGIN GENERAL CLASSES */
+
+.img-responsive-fullwidth
+{
+  width: initial !important;
+  max-width: 100%;
+}
+
+.no-padding
+{
+  padding: 0;
+}
+
+.normal-margin
+{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+html
+{
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #F2D650;
+}
+
+.img-centered {
+  margin: 0 auto;
+}
+
+/* END GENERAL CLASSES */
+
+/*  BEGIN NAVBAR */
+
+
+
+.navbar-custom {
+  background: #F2D650;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  padding: 10px 0;
+}
+
+.navbar-custom .navbar-nav {
+  letter-spacing: 1px;
+}
+.navbar-custom .navbar-nav li a {
+  color: white;
+}
+.navbar-custom .navbar-nav li a:hover {
+  color: black;
+}
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+  color: black;
+}
+.navbar-custom .navbar-nav li.active a {
+  font-weight: 600;
+  background: transparent;
+  color: black;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: black;
+  background: transparent;
+}
+.navbar-custom .navbar-toggle {
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-color: white;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #63CEFF;
+  color: white;
+  border-color: #63CEFF;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 10px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom.affix {
+    padding: 3px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+
+/* Aumenta a range de widths que o cabeçalho colapsa */
+@media (max-width: 1023px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+
+
+#CESDicon
+{
+  margin-left: 10px;
+}
+
+
+/* BEGIN - Ajustando o butão do collapse */
+
+#button-menu {
+  color: black;
+  font-size: 10px;
+  border: solid 2px #808080;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+#button-menu:hover,
+#button-menu:focus,
+#button-menu:active,
+#button-menu.active {
+  color: white;
+  background: #00009C;
+  border: solid 2px #00009C;
+}
+
+
+/* BEGIN - Colocando os símbolos de redes sociais no cabeçalho */
+
+.social-media
+{
+  display: inline-block;
+}
+
+#social-media-container
+{
+  padding: 0;
+}
+
+#u101 {
+    margin-left: 10px;
+    vertical-align: top;
+    background: transparent url("../images/u101.png?crc=536118817") no-repeat center;
+    background-size: 96.54586034647677%;
+}
+
+#u101:hover {
+    background: transparent url("../images/u101-r.png?crc=4185690978") no-repeat center;
+    background-size: 100%;
+}
+
+#u103 {
+    vertical-align: top;
+    background: transparent url("../images/u103.png?crc=4285255659") no-repeat center;
+    background-size: 96.61441443920684%;
+}
+
+#u103:hover {
+    background: transparent url("../images/u103-r.png?crc=3969856600") no-repeat center;
+    background-size: 100%;
+}
+
+#u105 {
+    vertical-align: top;
+    background: transparent url("../images/u105.png?crc=77117580") no-repeat center;
+    background-size: 96.61441443920684%;
+}
+
+#u105:hover {
+    background: transparent url("../images/u105-r.png?crc=4044746325") no-repeat center;
+    background-size: 100%;
+}
+
+#u107 {
+    vertical-align: top;
+    background: transparent url("../images/u107.png?crc=208759527") no-repeat center;
+    background-size: 96.61441443920684%;
+}
+
+#u107:hover {
+    background: transparent url("../images/u107-r.png?crc=346631253") no-repeat center;
+    background-size: 100%;
+}
+
+/* END - Colocando os símbolos de redes sociais no cabeçalho */
+
+/* BEGIN - Dropdown no navbar */
+
+.navbar-nav .dropdown .navbar-dropdown li a 
+{
+  color: black;
+}
+
+@media (min-width: 1175px) {
+  .navbar-nav .dropdown .dropdown-menu {
+    left: 50%;
+    right: auto;
+    text-align: center;
+    transform: translate(-50%, 0);
+  }
+}
+
+.dropdown-item
+{
+  text-transform: none;
+}
+
+/* END - Dropdown no navbar */
+
+
+.btn-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px #F2D650;
+  background: #F2D650;
+  transition: all 0.3s ease-in-out;
+  margin-top: 7px;
+  z-index: 999;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #3FC0E0;
+  background: white;
+  border-color: #A9A9A9;
+}
+
+/* Begin Footer */
+
+#footer
+{
+  background: #404040;
+  min-height: 100px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+#CesdFooter
+{
+  border-right: 1px solid white;
+}
+
+#buttonContato
+{
+  background: white;
+  border-color: #A9A9A9;
+  color: black;
+  margin-top: 2px;
+}
+
+#buttonContato:hover,
+#buttonContato:focus,
+#buttonContato:active,
+#buttonContato.active
+{
+  background: #00008B;
+  color: white;
+}
+
+.footer-logo
+{
+  margin-top: 10px;
+}
+
+#footerInfo
+{
+  padding: 5px 0;
+}
+
+
+
+/* END FOOTER*/
+

@@ -1,0 +1,20 @@
+8:25 am - 09/June/2017 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+8:29 am - 09/June/2017 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+8:31 am - 09/June/2017 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''vestibulinho_casd_2017' (nome, sobrenome, RG, CPF, sexo, nascimento, responsave' at line 1
+8:35 am - 09/June/2017 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''vestibulinho_casd_2017' ('nome', 'sobrenome', 'RG', 'CPF', 'sexo', 'nascimento'' at line 1
+8:37 am - 09/June/2017 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''nome', 'sobrenome', 'RG', 'CPF', 'sexo', 'nascimento', 'responsavel', 'parentes' at line 1
+8:40 am - 09/June/2017 - SQLSTATE[42S02]: Base table or view not found: 1146 Table 'santosdumont.vestibulinho_casd2017' doesn't exist
+5:17 am - 10/June/2017 - SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+3:40 am - 11/June/2017 - SQLSTATE[HY000]: General error: no fetch function specified
+3:40 am - 11/June/2017 - SQLSTATE[HY000]: General error: no fetch function specified
+3:40 am - 11/June/2017 - SQLSTATE[HY000]: General error: no fetch function specified
+5:38 am - 11/June/2017 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'vestibulinho_casd_2018' at line 1
+5:38 am - 11/June/2017 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'vestibulinho_casd_2018' at line 1
+5:38 am - 11/June/2017 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'vestibulinho_casd_2018' at line 1
+6:39 am - 25/June/2017 - SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+7:32 pm - 01/August/2017 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+9:21 pm - 01/August/2017 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+9:53 pm - 01/August/2017 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+9:55 pm - 01/August/2017 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+10:10 pm - 01/August/2017 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+10:13 pm - 01/August/2017 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
